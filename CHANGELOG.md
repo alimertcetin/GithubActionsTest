@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/alimertcetin/GithubActionsTest/compare/v1.1.1...v1.2.0) (2023-10-29)
+
+
+### Features
+
+* Add automated documentation job ([b9b8bf9](https://github.com/alimertcetin/GithubActionsTest/commit/b9b8bf95ca1a95022b95fe8bc255edc3366012eb))
+
 ## [1.1.1](https://github.com/alimertcetin/GithubActionsTest/compare/v1.1.0...v1.1.1) (2023-10-29)
 
 
