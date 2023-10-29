@@ -6,7 +6,7 @@
       {
         "files": 
         [
-          "docfx_project/**.xml",
+          "docs/_site/**.xml",
         ]
       },
     ],
