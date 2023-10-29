@@ -1,7 +1,7 @@
 name: docTest
 
 on:
-  workflow_dispatch:
+  push:
     branches:
     - main
 
