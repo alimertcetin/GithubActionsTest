@@ -4,6 +4,31 @@ on:
     branches:
     - main
 jobs:
+  Create-Documentation:
+    name: Create-Documentation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the sources
+        uses: actions/checkout@v2
+
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+
+      - name: Generate open api specifications
+        id: generate-doc
+        uses: ./
+        with:
+          user-name: ${{ secrets.BOT_USERNAME}}
+          user-token: ${{ secrets.BOT_PASSWORD}}
+          user-email: ${{ secrets.BOT_EMAIL}}
+          branch: ${{ steps.extract_branch.outputs.branch }}
+        
+      - name: Print the URL for generate documentation
+        if: steps.generate-doc.outputs.generated-doc-url != ''
+        run: echo ${{ steps.generate-doc.outputs.generated-doc-url}}
+
   release:
     permissions:
       contents: write
@@ -13,16 +38,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
-    - name: Release
-      uses: cycjimmy/semantic-release-action@v3
-      with:
-        extra_plugins: |
-          @semantic-release/changelog
-          @semantic-release/git
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release
+        uses: cycjimmy/semantic-release-action@v3
+        with:
+          extra_plugins: |
+            @semantic-release/changelog
+            @semantic-release/git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
