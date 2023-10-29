@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/alimertcetin/GithubActionsTest/compare/v1.0.0...v1.1.0) (2023-10-29)
+
+
+### Features
+
+* Remove Setup Node jobs ([dcdf5c6](https://github.com/alimertcetin/GithubActionsTest/commit/dcdf5c6a7d04eded3257835f1b3568c6dca419d5))
+
 # 1.0.0 (2023-10-29)
 
 
