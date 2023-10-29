@@ -1,76 +1,19 @@
 {
-  "metadata": [
-    {
-      "src": [
-        {
-          "files": [
-            "src/**.sln"
-          ],
-          "exclude": [
-            "**/obj/**",
-            "**/bin/**",
-            "docfx/**"
-          ],
-          "cwd": "../"
-        }
-      ],
-      "dest": "api"
-    }
-  ],
-  "build": {
-    "content": [
+  "build": 
+  {
+    "content": 
+    [
       {
-        "files": [
-          "api/**.yml",
-          "api/index.md"
+        "files": 
+        [
+          "docfx_project/**.xml",
         ]
       },
-      {
-        "files": [
-          "doc/**.md",
-          "doc/**/toc.yml"
-        ],
-        "exclude": [
-          "obj/**",
-          "_site/**"
-        ]
-      },
-      {
-        "files": [
-          "toc.yml",
-          "*.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "_site/**"
-        ]
-      }
     ],
-    "resource": [
-      {
-        "files": [
-          "assets/**"
-        ],
-        "exclude": [
-          "obj/**",
-          "_site/**"
-        ]
-      }
-    ],
-    "overwrite": [
-      {
-        "files": [
-          "apidoc/**.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "_site/**"
-        ]
-      }
-    ],
-    "dest": "_site",
-    "template": [
-      "default"
+    "dest": "Documentation",
+    "template": 
+    [
+      "modern"
     ],
     "noLangKeyword": false
   }
