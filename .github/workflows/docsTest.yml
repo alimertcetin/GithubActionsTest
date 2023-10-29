@@ -1,4 +1,5 @@
-name: test
+name: docTest
+
 on:
   workflow_dispatch:
     branches:
@@ -20,7 +21,7 @@ jobs:
           dotnet-version: 7.x
       -run: dotnet tool update -g docfx
       -run: docfx docfx_project/docfx.json
-      
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
