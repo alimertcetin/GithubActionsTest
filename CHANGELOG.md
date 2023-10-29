@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/alimertcetin/GithubActionsTest/compare/v1.1.0...v1.1.1) (2023-10-29)
+
+
+### Bug Fixes
+
+* **testBugfix:** fixed something important ([66bf015](https://github.com/alimertcetin/GithubActionsTest/commit/66bf0153ccab49b3616ee855288e495c1a95ea3f))
+
 # [1.1.0](https://github.com/alimertcetin/GithubActionsTest/compare/v1.0.0...v1.1.0) (2023-10-29)
 
 
