@@ -9,4 +9,8 @@
     <DocumentationFile>C:\Gthub\GitActionTest\docfx_project\testDocumentationFile.xml</DocumentationFile>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DocumentationFile />
+  </PropertyGroup>
+
 </Project>
