@@ -193,6 +193,56 @@ references:
   isSpec: "True"
   fullName: TestApp.AnotherImportantClass.valProp2
   nameWithType: AnotherImportantClass.valProp2
+- uid: TestApp.ClassWithNoCommentsOrAnything
+  name: ClassWithNoCommentsOrAnything
+  href: api/TestApp.ClassWithNoCommentsOrAnything.html
+  commentId: T:TestApp.ClassWithNoCommentsOrAnything
+  fullName: TestApp.ClassWithNoCommentsOrAnything
+  nameWithType: ClassWithNoCommentsOrAnything
+- uid: TestApp.ClassWithNoCommentsOrAnything.AFunction
+  name: AFunction()
+  href: api/TestApp.ClassWithNoCommentsOrAnything.html#TestApp_ClassWithNoCommentsOrAnything_AFunction
+  commentId: M:TestApp.ClassWithNoCommentsOrAnything.AFunction
+  fullName: TestApp.ClassWithNoCommentsOrAnything.AFunction()
+  nameWithType: ClassWithNoCommentsOrAnything.AFunction()
+- uid: TestApp.ClassWithNoCommentsOrAnything.AFunction*
+  name: AFunction
+  href: api/TestApp.ClassWithNoCommentsOrAnything.html#TestApp_ClassWithNoCommentsOrAnything_AFunction_
+  commentId: Overload:TestApp.ClassWithNoCommentsOrAnything.AFunction
+  isSpec: "True"
+  fullName: TestApp.ClassWithNoCommentsOrAnything.AFunction
+  nameWithType: ClassWithNoCommentsOrAnything.AFunction
+- uid: TestApp.ClassWithNoCommentsOrAnything.AMethod
+  name: AMethod()
+  href: api/TestApp.ClassWithNoCommentsOrAnything.html#TestApp_ClassWithNoCommentsOrAnything_AMethod
+  commentId: M:TestApp.ClassWithNoCommentsOrAnything.AMethod
+  fullName: TestApp.ClassWithNoCommentsOrAnything.AMethod()
+  nameWithType: ClassWithNoCommentsOrAnything.AMethod()
+- uid: TestApp.ClassWithNoCommentsOrAnything.AMethod*
+  name: AMethod
+  href: api/TestApp.ClassWithNoCommentsOrAnything.html#TestApp_ClassWithNoCommentsOrAnything_AMethod_
+  commentId: Overload:TestApp.ClassWithNoCommentsOrAnything.AMethod
+  isSpec: "True"
+  fullName: TestApp.ClassWithNoCommentsOrAnything.AMethod
+  nameWithType: ClassWithNoCommentsOrAnything.AMethod
+- uid: TestApp.ClassWithNoCommentsOrAnything.classValue
+  name: classValue
+  href: api/TestApp.ClassWithNoCommentsOrAnything.html#TestApp_ClassWithNoCommentsOrAnything_classValue
+  commentId: F:TestApp.ClassWithNoCommentsOrAnything.classValue
+  fullName: TestApp.ClassWithNoCommentsOrAnything.classValue
+  nameWithType: ClassWithNoCommentsOrAnything.classValue
+- uid: TestApp.ClassWithNoCommentsOrAnything.intValue
+  name: intValue
+  href: api/TestApp.ClassWithNoCommentsOrAnything.html#TestApp_ClassWithNoCommentsOrAnything_intValue
+  commentId: F:TestApp.ClassWithNoCommentsOrAnything.intValue
+  fullName: TestApp.ClassWithNoCommentsOrAnything.intValue
+  nameWithType: ClassWithNoCommentsOrAnything.intValue
+- uid: TestApp.ClassWithNoCommentsOrAnything.stringValue
+  name: stringValue
+  href: api/TestApp.ClassWithNoCommentsOrAnything.html#TestApp_ClassWithNoCommentsOrAnything_stringValue
+  commentId: F:TestApp.ClassWithNoCommentsOrAnything.stringValue
+  fullName: TestApp.ClassWithNoCommentsOrAnything.stringValue
+  nameWithType: ClassWithNoCommentsOrAnything.stringValue
 - uid: TestApp.SomeTestClass
   name: SomeTestClass
   href: api/TestApp.SomeTestClass.html
