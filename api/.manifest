@@ -1,0 +1,16 @@
+{
+  "TestApp": "TestApp.yml",
+  "TestApp.AnImportantClass": "TestApp.AnImportantClass.yml",
+  "TestApp.AnImportantClass.Dispose": "TestApp.AnImportantClass.yml",
+  "TestApp.AnImportantClass.Equals(TestApp.AnImportantClass)": "TestApp.AnImportantClass.yml",
+  "TestApp.AnImportantClass.sVal": "TestApp.AnImportantClass.yml",
+  "TestApp.AnImportantClass.ToString": "TestApp.AnImportantClass.yml",
+  "TestApp.AnImportantClass.val1": "TestApp.AnImportantClass.yml",
+  "TestApp.AnImportantClass.valProp1": "TestApp.AnImportantClass.yml",
+  "TestApp.AnImportantClass.valProp2": "TestApp.AnImportantClass.yml",
+  "TestApp.SomeTestClass": "TestApp.SomeTestClass.yml",
+  "TestApp.SomeTestClass.Create": "TestApp.SomeTestClass.yml",
+  "TestApp.SomeTestClass.MethodWithParams(System.Int32[])": "TestApp.SomeTestClass.yml",
+  "TestApp.SomeTestClass.SomeTestMethod": "TestApp.SomeTestClass.yml",
+  "TestApp.SomeTestClass.TEST_STRİNG": "TestApp.SomeTestClass.yml"
+}
