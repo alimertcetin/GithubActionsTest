@@ -22,8 +22,8 @@ namespace TestApp
 
         /// <summary>
         /// Returns the sum of <see cref="aStaticIntField"/> and <see cref="aStaticIntProp"/>
-        /// <seealso cref="Multiply"/>
         /// </summary>
+        /// <seealso cref="Multiply"/>
         public static int Add()
         {
             return aStaticIntField + aStaticIntProp;
