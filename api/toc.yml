@@ -1,8 +1,0 @@
-### YamlMime:TableOfContent
-- uid: TestApp
-  name: TestApp
-  items:
-  - uid: TestApp.AnImportantClass
-    name: AnImportantClass
-  - uid: TestApp.SomeTestClass
-    name: SomeTestClass
