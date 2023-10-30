@@ -1,0 +1,552 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestApp.AnImportantClass
+  commentId: T:TestApp.AnImportantClass
+  id: AnImportantClass
+  parent: TestApp
+  children:
+  - TestApp.AnImportantClass.Dispose
+  - TestApp.AnImportantClass.Equals(TestApp.AnImportantClass)
+  - TestApp.AnImportantClass.sVal
+  - TestApp.AnImportantClass.ToString
+  - TestApp.AnImportantClass.val1
+  - TestApp.AnImportantClass.valProp1
+  - TestApp.AnImportantClass.valProp2
+  langs:
+  - csharp
+  - vb
+  name: AnImportantClass
+  nameWithType: AnImportantClass
+  fullName: TestApp.AnImportantClass
+  type: Class
+  source:
+    remote:
+      path: TestApp/AnImportantClass.cs
+      branch: main
+      repo: https://github.com/alimertcetin/GithubActionsTest
+    id: AnImportantClass
+    path: TestApp/AnImportantClass.cs
+    startLine: 5
+  assemblies:
+  - TestApp
+  namespace: TestApp
+  summary: "\nClass that does some important stuff\n"
+  example: []
+  syntax:
+    content: 'public class AnImportantClass : SomeTestClass, IDisposable, IEquatable<AnImportantClass>'
+    content.vb: >-
+      Public Class AnImportantClass
+          Inherits SomeTestClass
+          Implements IDisposable, IEquatable(Of AnImportantClass)
+  inheritance:
+  - System.Object
+  - TestApp.SomeTestClass
+  implements:
+  - IDisposable
+  - IEquatable{TestApp.AnImportantClass}
+  inheritedMembers:
+  - TestApp.SomeTestClass.TEST_STRİNG
+  - TestApp.SomeTestClass.Create
+  - TestApp.SomeTestClass.SomeTestMethod
+  - TestApp.SomeTestClass.MethodWithParams(System.Int32[])
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TestApp.AnImportantClass.val1
+  commentId: F:TestApp.AnImportantClass.val1
+  id: val1
+  parent: TestApp.AnImportantClass
+  langs:
+  - csharp
+  - vb
+  name: val1
+  nameWithType: AnImportantClass.val1
+  fullName: TestApp.AnImportantClass.val1
+  type: Field
+  source:
+    remote:
+      path: TestApp/AnImportantClass.cs
+      branch: main
+      repo: https://github.com/alimertcetin/GithubActionsTest
+    id: val1
+    path: TestApp/AnImportantClass.cs
+    startLine: 7
+  assemblies:
+  - TestApp
+  namespace: TestApp
+  syntax:
+    content: public int val1
+    return:
+      type: System.Int32
+    content.vb: Public val1 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TestApp.AnImportantClass.valProp1
+  commentId: P:TestApp.AnImportantClass.valProp1
+  id: valProp1
+  parent: TestApp.AnImportantClass
+  langs:
+  - csharp
+  - vb
+  name: valProp1
+  nameWithType: AnImportantClass.valProp1
+  fullName: TestApp.AnImportantClass.valProp1
+  type: Property
+  source:
+    remote:
+      path: TestApp/AnImportantClass.cs
+      branch: main
+      repo: https://github.com/alimertcetin/GithubActionsTest
+    id: valProp1
+    path: TestApp/AnImportantClass.cs
+    startLine: 8
+  assemblies:
+  - TestApp
+  namespace: TestApp
+  syntax:
+    content: public int valProp1 { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property valProp1 As Integer
+  overload: TestApp.AnImportantClass.valProp1*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TestApp.AnImportantClass.valProp2
+  commentId: P:TestApp.AnImportantClass.valProp2
+  id: valProp2
+  parent: TestApp.AnImportantClass
+  langs:
+  - csharp
+  - vb
+  name: valProp2
+  nameWithType: AnImportantClass.valProp2
+  fullName: TestApp.AnImportantClass.valProp2
+  type: Property
+  source:
+    remote:
+      path: TestApp/AnImportantClass.cs
+      branch: main
+      repo: https://github.com/alimertcetin/GithubActionsTest
+    id: valProp2
+    path: TestApp/AnImportantClass.cs
+    startLine: 9
+  assemblies:
+  - TestApp
+  namespace: TestApp
+  syntax:
+    content: public int valProp2 { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property valProp2 As Integer
+  overload: TestApp.AnImportantClass.valProp2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TestApp.AnImportantClass.sVal
+  commentId: P:TestApp.AnImportantClass.sVal
+  id: sVal
+  parent: TestApp.AnImportantClass
+  langs:
+  - csharp
+  - vb
+  name: sVal
+  nameWithType: AnImportantClass.sVal
+  fullName: TestApp.AnImportantClass.sVal
+  type: Property
+  source:
+    remote:
+      path: TestApp/AnImportantClass.cs
+      branch: main
+      repo: https://github.com/alimertcetin/GithubActionsTest
+    id: sVal
+    path: TestApp/AnImportantClass.cs
+    startLine: 11
+  assemblies:
+  - TestApp
+  namespace: TestApp
+  syntax:
+    content: public string sVal { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property sVal As String
+  overload: TestApp.AnImportantClass.sVal*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TestApp.AnImportantClass.Dispose
+  commentId: M:TestApp.AnImportantClass.Dispose
+  id: Dispose
+  parent: TestApp.AnImportantClass
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AnImportantClass.Dispose()
+  fullName: TestApp.AnImportantClass.Dispose()
+  type: Method
+  source:
+    remote:
+      path: TestApp/AnImportantClass.cs
+      branch: main
+      repo: https://github.com/alimertcetin/GithubActionsTest
+    id: Dispose
+    path: TestApp/AnImportantClass.cs
+    startLine: 13
+  assemblies:
+  - TestApp
+  namespace: TestApp
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: TestApp.AnImportantClass.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TestApp.AnImportantClass.Equals(TestApp.AnImportantClass)
+  commentId: M:TestApp.AnImportantClass.Equals(TestApp.AnImportantClass)
+  id: Equals(TestApp.AnImportantClass)
+  parent: TestApp.AnImportantClass
+  langs:
+  - csharp
+  - vb
+  name: Equals(AnImportantClass)
+  nameWithType: AnImportantClass.Equals(AnImportantClass)
+  fullName: TestApp.AnImportantClass.Equals(TestApp.AnImportantClass)
+  type: Method
+  source:
+    remote:
+      path: TestApp/AnImportantClass.cs
+      branch: main
+      repo: https://github.com/alimertcetin/GithubActionsTest
+    id: Equals
+    path: TestApp/AnImportantClass.cs
+    startLine: 18
+  assemblies:
+  - TestApp
+  namespace: TestApp
+  syntax:
+    content: public bool Equals(AnImportantClass other)
+    parameters:
+    - id: other
+      type: TestApp.AnImportantClass
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As AnImportantClass) As Boolean
+  overload: TestApp.AnImportantClass.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TestApp.AnImportantClass.ToString
+  commentId: M:TestApp.AnImportantClass.ToString
+  id: ToString
+  parent: TestApp.AnImportantClass
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AnImportantClass.ToString()
+  fullName: TestApp.AnImportantClass.ToString()
+  type: Method
+  source:
+    remote:
+      path: TestApp/AnImportantClass.cs
+      branch: main
+      repo: https://github.com/alimertcetin/GithubActionsTest
+    id: ToString
+    path: TestApp/AnImportantClass.cs
+    startLine: 23
+  assemblies:
+  - TestApp
+  namespace: TestApp
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: TestApp.AnImportantClass.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TestApp
+  commentId: N:TestApp
+  name: TestApp
+  nameWithType: TestApp
+  fullName: TestApp
+- uid: TestApp.SomeTestClass
+  commentId: T:TestApp.SomeTestClass
+  parent: TestApp
+  name: SomeTestClass
+  nameWithType: SomeTestClass
+  fullName: TestApp.SomeTestClass
+- uid: IDisposable
+  commentId: '!:IDisposable'
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: IDisposable
+- uid: IEquatable{TestApp.AnImportantClass}
+  commentId: '!:IEquatable{TestApp.AnImportantClass}'
+  definition: IEquatable`1
+  name: IEquatable<AnImportantClass>
+  nameWithType: IEquatable<AnImportantClass>
+  fullName: IEquatable<TestApp.AnImportantClass>
+  nameWithType.vb: IEquatable(Of AnImportantClass)
+  fullName.vb: IEquatable(Of TestApp.AnImportantClass)
+  name.vb: IEquatable(Of AnImportantClass)
+  spec.csharp:
+  - uid: IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TestApp.AnImportantClass
+    name: AnImportantClass
+    nameWithType: AnImportantClass
+    fullName: TestApp.AnImportantClass
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TestApp.AnImportantClass
+    name: AnImportantClass
+    nameWithType: AnImportantClass
+    fullName: TestApp.AnImportantClass
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TestApp.SomeTestClass.TEST_STRİNG
+  commentId: F:TestApp.SomeTestClass.TEST_STRİNG
+  parent: TestApp.SomeTestClass
+  name: TEST_STRİNG
+  nameWithType: SomeTestClass.TEST_STRİNG
+  fullName: TestApp.SomeTestClass.TEST_STRİNG
+- uid: TestApp.SomeTestClass.Create
+  commentId: M:TestApp.SomeTestClass.Create
+  parent: TestApp.SomeTestClass
+  name: Create()
+  nameWithType: SomeTestClass.Create()
+  fullName: TestApp.SomeTestClass.Create()
+  spec.csharp:
+  - uid: TestApp.SomeTestClass.Create
+    name: Create
+    nameWithType: SomeTestClass.Create
+    fullName: TestApp.SomeTestClass.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TestApp.SomeTestClass.Create
+    name: Create
+    nameWithType: SomeTestClass.Create
+    fullName: TestApp.SomeTestClass.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TestApp.SomeTestClass.SomeTestMethod
+  commentId: M:TestApp.SomeTestClass.SomeTestMethod
+  parent: TestApp.SomeTestClass
+  name: SomeTestMethod()
+  nameWithType: SomeTestClass.SomeTestMethod()
+  fullName: TestApp.SomeTestClass.SomeTestMethod()
+  spec.csharp:
+  - uid: TestApp.SomeTestClass.SomeTestMethod
+    name: SomeTestMethod
+    nameWithType: SomeTestClass.SomeTestMethod
+    fullName: TestApp.SomeTestClass.SomeTestMethod
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TestApp.SomeTestClass.SomeTestMethod
+    name: SomeTestMethod
+    nameWithType: SomeTestClass.SomeTestMethod
+    fullName: TestApp.SomeTestClass.SomeTestMethod
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TestApp.SomeTestClass.MethodWithParams(System.Int32[])
+  commentId: M:TestApp.SomeTestClass.MethodWithParams(System.Int32[])
+  parent: TestApp.SomeTestClass
+  isExternal: true
+  name: MethodWithParams(Int32[])
+  nameWithType: SomeTestClass.MethodWithParams(Int32[])
+  fullName: TestApp.SomeTestClass.MethodWithParams(System.Int32[])
+  nameWithType.vb: SomeTestClass.MethodWithParams(Int32())
+  fullName.vb: TestApp.SomeTestClass.MethodWithParams(System.Int32())
+  name.vb: MethodWithParams(Int32())
+  spec.csharp:
+  - uid: TestApp.SomeTestClass.MethodWithParams(System.Int32[])
+    name: MethodWithParams
+    nameWithType: SomeTestClass.MethodWithParams
+    fullName: TestApp.SomeTestClass.MethodWithParams
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TestApp.SomeTestClass.MethodWithParams(System.Int32[])
+    name: MethodWithParams
+    nameWithType: SomeTestClass.MethodWithParams
+    fullName: TestApp.SomeTestClass.MethodWithParams
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEquatable`1
+  commentId: '!:IEquatable`1'
+  isExternal: true
+  name: IEquatable<>
+  nameWithType: IEquatable<>
+  fullName: IEquatable<>
+  nameWithType.vb: IEquatable(Of )
+  fullName.vb: IEquatable(Of )
+  name.vb: IEquatable(Of )
+  spec.csharp:
+  - uid: IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TestApp.AnImportantClass.valProp1*
+  commentId: Overload:TestApp.AnImportantClass.valProp1
+  name: valProp1
+  nameWithType: AnImportantClass.valProp1
+  fullName: TestApp.AnImportantClass.valProp1
+- uid: TestApp.AnImportantClass.valProp2*
+  commentId: Overload:TestApp.AnImportantClass.valProp2
+  name: valProp2
+  nameWithType: AnImportantClass.valProp2
+  fullName: TestApp.AnImportantClass.valProp2
+- uid: TestApp.AnImportantClass.sVal*
+  commentId: Overload:TestApp.AnImportantClass.sVal
+  name: sVal
+  nameWithType: AnImportantClass.sVal
+  fullName: TestApp.AnImportantClass.sVal
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TestApp.AnImportantClass.Dispose*
+  commentId: Overload:TestApp.AnImportantClass.Dispose
+  name: Dispose
+  nameWithType: AnImportantClass.Dispose
+  fullName: TestApp.AnImportantClass.Dispose
+- uid: TestApp.AnImportantClass.Equals*
+  commentId: Overload:TestApp.AnImportantClass.Equals
+  name: Equals
+  nameWithType: AnImportantClass.Equals
+  fullName: TestApp.AnImportantClass.Equals
+- uid: TestApp.AnImportantClass
+  commentId: T:TestApp.AnImportantClass
+  parent: TestApp
+  name: AnImportantClass
+  nameWithType: AnImportantClass
+  fullName: TestApp.AnImportantClass
+- uid: System.Boolean
+  commentId: '!:System.Boolean'
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TestApp.AnImportantClass.ToString*
+  commentId: Overload:TestApp.AnImportantClass.ToString
+  name: ToString
+  nameWithType: AnImportantClass.ToString
+  fullName: TestApp.AnImportantClass.ToString
