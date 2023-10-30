@@ -34,10 +34,40 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TestApp.EnumContainer.TestEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestApp.EnumContainer.TestEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestApp.EnumContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestApp.EnumContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TestApp.SomeTestClass.yml",
       "output": {
         ".html": {
           "relative_path": "api/TestApp.SomeTestClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestApp.TestEnum2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestApp.TestEnum2.html"
         }
       },
       "version": ""
